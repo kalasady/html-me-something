@@ -1,0 +1,39 @@
+html, body {
+    margin: auto;
+    padding: 0;
+    max-width: 800px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+header {
+    background: url(C:\Users\kadim\lc101\unit_2\html-me-something\images\tinylifewiki_home.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.title {
+    color: #fff;
+    line-height: 80px;
+    font-size: 80px;
+    text-align: center
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 0 10px;
+}
+
+header .container {
+    position: relative;
+    top: 200px;
+}
