@@ -1,7 +1,6 @@
 html, body {
-    margin: auto;
+    margin: 0;
     padding: 0;
-    max-width: 800px;
 }
 
 body {
@@ -9,31 +8,171 @@ body {
     font-weight: 100;
 }
 
-header {
-    background: url(C:\Users\kadim\lc101\unit_2\html-me-something\images\tinylifewiki_home.jpg) no-repeat center center;
+.header {
+    background: radial-gradient(violet, magenta);
     background-size: cover;
-    height: 400px;
-    text-align: center;
-    color: aliceblue;
-}
-
-.title {
-    color: #fff;
-    line-height: 80px;
-    font-size: 80px;
-    text-align: center
-    margin-top: 0;
-    margin-bottom: 80px;
-    text-transform: uppercase;
+    height: 1200px;
 }
 
 .container {
+    text-align: center;
+    position: relative;
+    top: 600px;
     margin: 0 auto;
-    max-width: 940px;
+    max-width: 900px;
+    padding: 0 100px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.header p {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+.nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+    margin: 1100px auto;
+}
+
+.nav ul {
+    max-width: 900px;
+    height: 80px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav ul li {
+    color: white;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    font-size: 15px;
+    text-transform: capitalize;
     padding: 0 10px;
 }
 
-header .container {
+.nav ul li:hover {
+    background: magenta;
+    cursor: pointer;
+    transition: background .5s;
+}
+
+.main {
+    margin: 50px auto;
+}
+
+.about {
+    max-width: 940px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutimg {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.about h3 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase
+}
+
+.about p {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+}
+
+.mid-divider {
+    background: radial-gradient(lightgreen, green);
+    background-size: cover;
+    height: 1200px;
+}
+
+.mid-divider p {
     position: relative;
-    top: 200px;
+    top: 600px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.grid-content {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px 40px;
+    background-color: white;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.grid-content h2 {
+    font-size: 15px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.sections {
+    position: relative;
+    top: 1340px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background: black;
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    color: white;
+}
+
+.footer-elements {
+    position: relative;
+    top: 75px;
+}
+
+.footer-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: magenta;
+}
+
+.footer-meta {
+    font-size: 15px;
+    padding: 20px;
+    color: gray;
+}
+
+.btn {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
 }
